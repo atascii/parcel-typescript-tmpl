@@ -1,0 +1,26 @@
+{
+  "name": "parcel-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "parcel-tsbuild": "parcel build src/main.ts",
+    "parcel-build": "parcel build ./index.html",
+    "tscbuild": "tsc",
+    "serve": "serve -s ./dist",
+    "dev": "parcel ./index.html",
+    "clean": "rm -rf dist",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-typescript-types": "^2.14.4",   
+    "parcel": "^2.14.4",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
